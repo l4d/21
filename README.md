@@ -7,4 +7,10 @@
 ## Customization
 ### Customizing your Crosshair
 
+### Customizing your Weapon Indication
+
+### Customizing your Theme Color
+
+### Customizing your Kill Log
+
 ##Client Menu
