@@ -2,24 +2,24 @@
 
 ## Customization
 ##### Customizing your Theme Color
-1. Go to ../left4dead/custom directory
+1. Go to ../left4dead_custom/custom directory
 2. Open highlight.res
 3. This request a restart
 
 ##### Customizing your Crosshair
-1. Go to ../left4dead/custom directory
+1. Go to ../left4dead_custom/custom directory
 2. Open the file xhair.res with a text editor
 3. Read the commented lines
 4. This can be reloaded while in-game, use command hud_reloadscheme after saving changes in xhair.res
 
 ##### Customizing your Weapon Selection Indicator Color
-1. Go to ../left4dead/materials/vgui/hud
+1. Go to ../left4dead_custom/materials/vgui/hud
 2. Open scalablepanel_bgmidgrey_glow.vmf with a text editor
 3. Change the line $color "{0 238 249}" to your desired RGB color
 4. This can be reloaded in a single player game with sv_cheats 1 on and command mat_reloadallmaterials
 
 ##### Customizing your Kill Log Color
-1. Go to ../left4dead/materials/vgui/hud
+1. Go to ../left4dead_custom/materials/vgui/hud
 2. Open sigh.vmf
 3. Change the line $color "{76 255 236}" to your desired RGB color
 4. This can be reloaded in a single player game with sv_cheats 1 on and command mat_reloadallmaterials
