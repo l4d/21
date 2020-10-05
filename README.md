@@ -3,7 +3,7 @@
 ## Install
 1. Use gcfscape and extract your pak01_dir.vpk to your ../left 4 dead/left 4 dead/ directory
 2. Rename pak01_dir to pak01_dirz
-3. Download and extract contents to ../left 4 dead/
+3. Download the hud mod and extract contents to ../left 4 dead/
 4. When prompted, select yes to overwrite
 
 ## Customization
