@@ -1,4 +1,4 @@
-# Important: This is a preview, that means some things are unfinished or missing. This project is a WIP and will eventually be finished before Cyberpunk 2077 release...hopefully. This hud is also meant for 1920x1080, if you use lower resolutions, the scaling will show artifacts.
+# Important: This is a preview, that means some things are unfinished or missing.
 
 
 ## Install
