@@ -1,6 +1,7 @@
 # Important: This is early access, that means some things are unfinished or missing. Target completed release is by Nov 9th.
 
 ## Install
+0. Fresh install no mods.
 1. Use gcfscape and extract your pak01_dir.vpk to your ../left 4 dead/left 4 dead/ directory
 2. Rename pak01_dir to pak01_dirz
 3. Download the hud mod and extract contents to ../left 4 dead/
