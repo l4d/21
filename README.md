@@ -5,7 +5,7 @@
 4. Install the two fonts named crosshairs and icons
 
 ## Customization
-### Customizing your Theme Color
+##### Customizing your Theme Color
 1. Go to ../left4dead/custom directory
 2. Open highlight.res
 3. This request a restart
