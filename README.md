@@ -33,6 +33,7 @@
 2. Go to Options>Keyboard/Mouse>Edit Keys/Buttons
 3. You should see at the top an options for "Show menu"
 4. Click it and assign your desired key for the client menu
+5. Launch a match and press the key you just assigned
 
 ## Using the Addons menu In-Game
 1.
