@@ -6,11 +6,12 @@
 
 ## Customization
 ### Customizing your Crosshair
-
+1.
 ### Customizing your Weapon Indication
-
+1.
 ### Customizing your Theme Color
-
+1.
 ### Customizing your Kill Log
+1.
 
-##Client Menu
+## Client Menu
