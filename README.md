@@ -1,12 +1,5 @@
 # Important: This is early access, that means some things are unfinished or missing. Target completed release is by Nov 9th.
 
-
-## Install
-1. Extract the 
-2. Select Yes to overwrite
-3. Go to ../left4dead/custom directory
-4. Install the 3 fonts named crosshairs, icons, and heebo
-
 ## Customization
 ##### Customizing your Theme Color
 1. Go to ../left4dead/custom directory
