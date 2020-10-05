@@ -8,6 +8,7 @@
 ### Customizing your Theme Color
 1. Go to ../left4dead/custom directory
 2. Open highlight.res
+3. This request a restart
 
 ### Customizing your Crosshair
 1. Go to ../left4dead/custom directory
@@ -29,3 +30,6 @@
 2. Go to Options>Keyboard/Mouse>Edit Keys/Buttons
 3. You should see at the top an options for "Show menu"
 4. Click it and assign your desired key for the client menu
+
+## Using the Addons menu In-Game
+1.
