@@ -1,4 +1,4 @@
-# Important: This is early access, that means some things are unfinished or missing. Target completed release is by Nov 9th. This will be updated regularly.
+# Important: This is early access, that means some things are unfinished or missing. Target completed release is by Nov 9th.
 
 ## Install
 1. Use gcfscape and extract your pak01_dir.vpk to your ../left 4 dead/left 4 dead/ directory
