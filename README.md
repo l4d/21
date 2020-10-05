@@ -5,5 +5,4 @@
 4. Install the two fonts named crosshairs and icons
 
 ## Customization
-
-#Customizing your Crosshair
+##Customizing your Crosshair
