@@ -1,0 +1,432 @@
+"ClientMenu"
+{
+	// Menus have optional suffixes Zombie/Survivor/Spectator, followed by Alive/Dead
+	// Menu,Survivor,Alive > Menu,Survivor > Menu,Alive > Menu
+
+	"plus"
+	{
+		"Title"			"menu"
+
+		"1"
+		{
+			"command"	"play ui\browse.mp3;show_menu XHAIR"
+			"label"		"xhair"
+		}
+		"2"
+		{
+			"command"	"play ui\browse.mp3;show_menu VMODEL"
+			"label"		"vmdl"
+		}
+		"3"
+		{
+			"command"	"play ui\browse.mp3;show_menu VMODEL"
+			"label"		"cfgs"
+		}
+		"4"
+		{
+			"command"	"play ui\browse.mp3;show_menu DEV"
+			"label"		"dev"
+		}
+		"8"
+		{
+			"command"	"play ui\browse.mp3;show_menu CONFIGS"
+			"label"		"match"
+		}
+		"6"
+		{
+			"command"	"play ui\browse.mp3;show_menu REALISM"
+			"label"		"realism"
+		}
+		"7"
+		{
+			"command"	"play ui\browse.mp3;show_menu POST"
+			"label"		"post"
+		}
+		"5"
+		{
+			"command"	"play ui\browse.mp3;show_menu HUD"
+			"label"		"hud"
+		}
+		"9"
+		{
+			"command"	"play ui\browse.mp3;clear;show_menu voice"
+			"label"		"next pg"
+		}
+		"0"
+		{
+			"command"	"play ui\browse.mp3;"
+			"label"		"close"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Dev"
+	{
+		"Title"		"dev menu"
+
+		"1"
+		{
+		"command"	"demoui;show_menu dev;"
+		"label"		"demo ctrl2"
+		}
+		"2"
+		{
+		"command"	"mat_texture_list_all 1; mat_texture_list 1;show_menu dev;"
+		"label"		"mat browser"
+		}
+		"3"
+		{
+		"command"	"demoui2;show_menu dev;"
+		"label"		"demo ctrl1"
+		}
+		"4"
+		{
+		"command"	"exit"
+		"label"		"exit game"
+		}
+		"6"
+		{
+		"command"	"play ui\browse.mp3;record p;stop;snd_restart;hud_reloadscheme;show_menu Plus"
+		"label"		"restart snd vid"
+		}
+		"7"
+		{
+		"command"	"+vgui_drawtree;show_menu dev;"
+		"label"		"panel browser"
+		}
+		"8"
+		{
+		"command"	"cl_viewmodelfovsurvivor 180;nb_delete_all;noclip; hidehud 12"
+		"label"		"screenshot mode on"
+		}
+		"9"
+		{
+		"command"	"cl_viewmodelfovsurvivor 100;nb_delete_all;noclip; hidehud 0"
+		"label"		"screenshot mode off"
+		}
+	}
+
+	"Realism"
+	//--------------------------------------------------------------
+	{
+		"Title"		"realism menu"
+
+		"1"
+		{
+			"command"	"play ui\browse.mp3; exec realism;show_menu Realism"
+			"label"		"toggle realism mode"
+		}
+		"2"
+		{
+			"command"	"play ui\browse.mp3;exec realism-off; cl_survivor_light_brightness 4;hud_targetid_player_view_cone 0.92; show_menu Realism"
+			"label"		"toggle smart realism mode"
+		}
+		"3"
+		{
+		"command"	"play ui\browse.mp3;hud_targetid_name_height -70;hud_targetid_player_view_cone 0.998;show_menu realism;"
+		"label"		"toggle light realism mode"
+		}
+
+	}
+
+	"hud"
+	//--------------------------------------------------------------
+	{
+		"Title"		"hud menu"
+
+		"1"
+		{
+			"command"	"play ui\browse.mp3; toggle mat_vignette_enable 1 0; cc_emit backdrop_on; show_menu hud toggle"
+			"label"		"toggle backdrop"
+		}
+		"2"
+		{
+		"command"	"play ui\browse.mp3; update_addon_paths; O; hud_reloadscheme"
+		"label"		"refresh modules"
+		}
+
+	}
+
+	
+	"Post"
+	//--------------------------------------------------------------
+	{
+		"Title"		"post menu"
+
+		"1"
+		{
+			"command"	"play ui\browse.mp3;mat_local_contrast_edge_scale_override -1000.0; mat_monitorgamma 2.2; mat_local_contrast_scale_override 0.0;mat_colorcorrection 1;mat_local_contrast_scale_override 0; mat_colcorrection_disableentities 0:mat_local_contrast_enable 1;mat_vignette_enable 1; mat_motion_blur_enabled 0; cl_survivor_light_brightness 4; mat_monitorgamma 2.2; mat_grain_scale_override 0; mat_monitorgamma_tv_enabled 0; mat_grain_enable 1; show_menu Post"
+			"label"		"enable default post"
+		}
+		"2"
+		{
+			"command"	"play ui\browse.mp3;mat_colorcorrection 0; mat_local_contrast_scale_override 0; mat_colcorrection_disableentities 1:mat_local_contrast_enable 0; mat_motion_blur_enabled 0;cl_survivor_light_brightness 4; mat_monitorgamma 1.6;mat_grain_scale_override 0; mat_local_contrast_edge_scale_override -1000.0; mat_monitorgamma 1.6; mat_local_contrast_scale_override 0.0; mat_monitorgamma_tv_enabled 0; mat_grain_enable 0; show_menu Post"
+			"label"		"disable all post"
+		}
+		"3"
+		{
+			"command"	"play ui\browse.mp3;mat_grain_scale_override 1.0; mat_local_contrast_edge_scale_override 0.760000; mat_monitorgamma 2.6; mat_local_contrast_scale_override 0.600000; mat_monitorgamma_tv_enabled 0; mat_grain_enable 1; show_menu Post"
+			"label"		"enable 3dfx post"
+		}
+		"4"
+		{
+			"command"	"play ui\browse.mp3;mat_grain_scale_override 2.8; mat_local_contrast_edge_scale_override -1000.0; mat_monitorgamma 1.6; mat_local_contrast_scale_override 0.0; mat_monitorgamma_tv_enabled 0; mat_grain_enable 1; show_menu Post"
+			"label"		"enable dark post"
+		}
+		"5"
+		{
+			"command"	"play ui\browse.mp3;mat_grain_scale_override 2.8; mat_grain_scale_override 0; mat_monitorgamma 1.6; mat_grain_scale_override 0.05; mat_grain_enable 1; show_menu Post"
+			"label"		"enable competitive post"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Xhair"
+	{
+		"Title"		"xhair menu"
+
+		"1"
+		{
+			"command"	"play ui\browse.mp3; toggle cl_crosshair_circle_alpha 0 255;show_menu Xhair"
+			"label"		"toggle circle xhair"
+		}
+		"2"
+		{
+			"command"	"play ui\browse.mp3; toggle cl_crosshair_circle_alpha 255 200 150 125 100 75 50 25 10 5 0;show_menu Xhair"
+			"label"		"toggle circle alpha"
+		}
+		"3"
+		{
+			"command"	"play ui\browse.mp3;toggle cl_crosshair_circle_mode 0 2;show_menu Xhair"
+			"label"		"toggle circle type"
+		}
+		"4"
+		{
+			"command"	""
+			"label"		"toggle all on/off"
+		}
+		"5"
+		{
+			"command"	"play ui\browse.mp3; toggle cl_crosshair_alpha 255 0; show_menu Xhair"
+			"label"		"toggle square xhair"
+		}
+		"6"
+		{
+			"command"	"play ui\browse.mp3; toggle cl_crosshair_alpha 255 200 150 125 100 75 50 25 10 5 0; show_menu Xhair"
+			"label"		"toggle square alpha"
+		}
+		"7"
+		{
+			"command"	"play ui\browse.mp3;toggle cl_crosshair_dynamic 1 0;show_menu Xhair"
+			"label"		"toggle dynamic type"
+		}
+	}
+	
+	//--------------------------------------------------------------	
+	"VModel"
+		{
+		"Title"		"viewmodel menu"
+
+		"1"
+		{
+			"command"	"play ui\browse.mp3; toggle cl_viewmodelfovsurvivor 180 51 61 71 81 91 101 111 121; toggle cl_viewmodelfovboomer 180 51 61 71 81 91 101 111 121 ; toggle cl_viewmodelfovhunter 180 51 61 71 81 91 101 111 121 ;toggle cl_viewmodelfovsmoker 180 51 61 71 81 91 101 111 121 ;show_menu VModel;"
+			"label"		"toggle viewmodel arms"
+		}
+		"2"
+		{
+		"command"	"play ui\browse.mp3; toggle lower_body 0 1;show_menu VModel"
+		"label"		"toggle viewmodel legs"
+		}
+		"3"
+		{
+		"command"	"play ui\browse.mp3;  toggle cl_fov 95 100 105 110 115 120 125 130;show_menu VModel"
+		"label"		"toggle field of view"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Configs"
+	{
+		"Title"		"offline game modes"
+
+		"1"
+		{
+			"command"	"play ui\browse.mp3;mp_gamemode survival; callvote RestartGame"
+			"label"		"enable survival with bots"
+		}
+		"2"
+		{
+		"command"	"director_force_versus_start; director_start; mp_waitingforplayers_restart 1; vs_max_team_switches 999; mp_gamemode versus;sb_all_bot_team 1;"
+		"label"		"enable versus with bots"
+		}
+		"3"
+		{
+		"command"	";show_menu Plus"
+		"label"		"reset to default"
+		}
+		"4"
+		{
+		"command"	"show_menu Plus"
+		"label"		"close"
+		}
+
+	}
+
+	//--------------------------------------------------------------
+	"CallVote"
+	{
+		"Title"		"Calling a Vote"
+
+		"3"
+		{
+			"command"	"show_menu NextMission"
+			"label"		"Change Next Mission..."
+		}
+		"0"
+		{
+			"command"	""
+			"label"		"Exit"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"NextMissionNow"
+	{
+		"Title"		"Vote to change mission now"
+
+		"1"
+		{
+			"command"	"callvote ChangeMission Airport"
+			"label"		"Airport"
+			"ignoremission" "Airport"
+		}
+		"2"
+		{
+			"command"	"callvote ChangeMission smalltown"
+			"label"		"Small Town"
+			"ignoremission" "smalltown"
+		}
+		"3"
+		{
+			"command"	"callvote ChangeMission Hospital"
+			"label"		"Hospital"
+			"ignoremission" "Hospital"
+		}
+		"4"
+		{
+			"command"	"callvote ChangeMission Farm"
+			"label"		"Farm"
+			"ignoremission" "Farm"
+		}
+		"0"
+		{
+			"command"	""
+			"label"		"Exit"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"NextMissionLater"
+	{
+		"Title"		"Vote to set next mission for later"
+
+		"1"
+		{
+			"command"	"callvote NextMission Airport"
+			"label"		"Airport"
+			"ignoreNextMission" "Airport"
+		}
+		"2"
+		{
+			"command"	"callvote NextMission smalltown"
+			"label"		"Small Town"
+			"ignoreNextMission" "Small Town"
+		}
+		"3"
+		{
+			"command"	"callvote NextMission Hospital"
+			"label"		"Hospital"
+			"ignoreNextMission" "Hospital"
+		}
+		"4"
+		{
+			"command"	"callvote NextMission Farm"
+			"label"		"Farm"
+			"ignoreNextMission" "Farm"
+		}
+		"0"
+		{
+			"command"	""
+			"label"		"Exit"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"NextMission"
+	{
+		"Title" "Vote to change next mission"
+
+		"1"
+		{
+			"command"	"show_menu NextMissionNow"
+			"label"		"Change mission now..."
+		}
+		"2"
+		{
+			"command"	"show_menu NextMissionLater"
+			"label"		"Set next mission for later..."
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Difficulty,Survivor"
+	{
+		"Title"		"Vote to change difficulty from <cvar z_difficulty>"
+
+		"1"
+		{
+			"command"	"callvote ChangeDifficulty Impossible"
+			"label"		"Impossible"
+			"ignorevar"
+			{
+				"cvar"	"z_difficulty"
+				"value"	"Impossible"
+			}
+		}
+		"2"
+		{
+			"command"	"callvote ChangeDifficulty Expert"
+			"label"		"Expert"
+			"ignorevar"
+			{
+				"cvar"	"z_difficulty"
+				"value"	"Expert"
+			}
+		}
+		"3"
+		{
+			"command"	"callvote ChangeDifficulty Hard"
+			"label"		"Hard"
+			"ignorevar"
+			{
+				"cvar"	"z_difficulty"
+				"value"	"Hard"
+			}
+		}
+		"4"
+		{
+			"command"	"callvote ChangeDifficulty Normal"
+			"label"		"Normal"
+			"ignorevar"
+			{
+				"cvar"	"z_difficulty"
+				"value"	"Normal"
+			}
+		}
+		"0"
+		{
+			"command"	""
+			"label"		"Exit"
+		}
+	}
+}
