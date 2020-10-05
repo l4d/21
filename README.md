@@ -1,8 +1,8 @@
-# Important: This is a preview, that means some things are unfinished or missing.
+# Important: This is early access, that means some things are unfinished or missing. Target completed release is by Nov 9th.
 
 
 ## Install
-1. Drag the contents of the folder to your ../left4dead/left4ead directory
+1. Extract the 
 2. Select Yes to overwrite
 3. Go to ../left4dead/custom directory
 4. Install the two fonts named crosshairs and icons
