@@ -6,12 +6,16 @@
 
 ## Customization
 ### Customizing your Crosshair
-1.
-### Customizing your Weapon Indication
+1. Go to ../left4dead/custom directory
+### Customizing your Weapon Indicator
 1.
 ### Customizing your Theme Color
 1.
 ### Customizing your Kill Log
 1.
 
-## Client Menu
+## Binding Custom Menu
+1. Launch L4D
+2. Go to Options>Keyboard/Mouse>Edit Keys/Buttons
+3. You should see at the top Show meu
+4. Click it and assign your desired key for the client menu
