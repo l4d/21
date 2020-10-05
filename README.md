@@ -10,22 +10,22 @@
 2. Open highlight.res
 3. This request a restart
 
-### Customizing your Crosshair
+##### Customizing your Crosshair
 1. Go to ../left4dead/custom directory
 2. Open the file xhair.res with a text editor
 3. Read the commented lines
 
-### Customizing your Weapon Selection Indicator Color
+##### Customizing your Weapon Selection Indicator Color
 1. Go to ../left4dead/materials/vgui/hud
 2. Open scalablepanel_bgmidgrey_glow.vmf with a text editor
 3. Change the line $color "{0 238 249}" to your desired RGB color
 
-### Customizing your Kill Log Color
+##### Customizing your Kill Log Color
 1. Go to ../left4dead/materials/vgui/hud
 2. Open sigh.vmf
 3. Change the line $color "{76 255 236}" to your desired RGB color
 
-## Binding Custom Menu
+##### Binding Custom Menu
 1. Launch L4D
 2. Go to Options>Keyboard/Mouse>Edit Keys/Buttons
 3. You should see at the top an options for "Show menu"
