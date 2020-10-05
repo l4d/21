@@ -1,3 +1,6 @@
+# Important: This is a preview, that means some things are unfinished or missing. This project is a WIP and will eventually be finished before Cyberpunk 2077 release...hopefully.
+
+
 ## Install
 1. Drag the contents of the folder to your ../left4dead/left4ead directory
 2. Select Yes to overwrite
