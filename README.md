@@ -1,4 +1,4 @@
-# Important: This is early access, that means some things are unfinished or missing. Target completed release is by Nov 9th.
+# EA
 
 ## Screenshots
 https://steamcommunity.com/id/052384/screenshots/?appid=500
